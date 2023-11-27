@@ -2,9 +2,37 @@
 
 ## 0. Prerequisites
 
-Install Azure CLI 
+Install Azure CLI: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
 
-Setup the Azure account default credentials (region, etc)
+For upgrading Azure CLI run the following command:
+
+```
+az upgrade
+```
+
+To check the current Azure CLI version run the command:
+
+```
+az --version
+```
+
+To loggin in Azure run the command:
+
+```
+az login
+```
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample2_CreateStorageAccount/assets/32194879/493bc6a4-5e11-4069-9cba-9cad96e6f7d1)
+
+
+
+To setup the Azure account default credentials (region, etc) run the command:
+
+```
+
+```
+
+
 
 ## 1. We include the Azure SDK for .NET libraries references
 
