@@ -40,10 +40,11 @@ Console.WriteLine(resourceGroup.Data.Name);
 ## 4. Create the Azure Storage
 
 ```csharp
-//first we need to define the StorageAccountCreateParameters
+//we need to define the StorageAccountCreateParameters
 StorageSku sku = new StorageSku(StorageSkuName.StandardGrs);
 StorageKind kind = StorageKind.Storage;
 StorageAccountCreateOrUpdateContent parameters = new StorageAccountCreateOrUpdateContent(sku, kind, location);
+
 //now we can create a storage account with defined account name and parameters
 StorageAccountCollection accountCollection = resourceGroup.GetStorageAccounts();
 string accountName = "myaccountluiscoco";
@@ -52,7 +53,7 @@ StorageAccountResource storageAccount = accountCreateOperation.Value;
 Console.WriteLine(storageAccount.Data.Name);
 ```
 
-## 5. 
+## 5. Source code.
 
 
 ```csharp
