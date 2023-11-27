@@ -1,5 +1,8 @@
 # Azure_SDK_Sample2_CreateStorageAccount
 
+**NOTE:**
+For general info about Azure SDK for .NET navigate to the following github repo: https://github.com/Azure/azure-sdk-for-net
+
 ## 0. Prerequisites
 
 Install Azure CLI: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
