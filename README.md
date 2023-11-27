@@ -25,14 +25,11 @@ az login
 ![image](https://github.com/luiscoco/Azure_SDK_Sample2_CreateStorageAccount/assets/32194879/493bc6a4-5e11-4069-9cba-9cad96e6f7d1)
 
 
-
-To setup the Azure account default credentials (region, etc) run the command:
-
-```
+Instead of constantly typing a location as "**euwest**" or a resource group name as "**Luis-RG**" for the commands I am running, I can set these as defaults in my session using the following command:
 
 ```
-
-
+az configure --defaults location=euwest group=luis-RG
+```
 
 ## 1. We include the Azure SDK for .NET libraries references
 
